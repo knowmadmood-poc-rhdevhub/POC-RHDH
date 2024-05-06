@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ichaso-rhdh-developer
+spec:
+  profile:
+    displayName: Desarrollador ichaso-rhdh-developer
+    email: ichaso-rhdh-developer@nomescribas.com
+    picture: https://cdn.iconscout.com/icon/premium/png-256-thumb/web-developer-4830946-4041863.png
+  memberOf: [equipo_desarrolladores_front, equipo_desarrolladores_backend, myapp-dev-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ichaso-knowmadmood
+spec:
+  profile:
+    displayName: Ingeniero Plataforma ichaso-knowmadmood
+    email: ichaso-knowmadmood@nomescribas.com
+    picture: https://cdn.iconscout.com/icon/premium/png-256-thumb/web-developer-16-957564.png
+  memberOf: [equipo_platform_engineering]

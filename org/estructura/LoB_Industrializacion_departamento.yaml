@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: departamento_desarrollo_software
+  description: Departamento de desarrollo software de LoB-Industrializacion-corp
+spec:
+  type: department
+  displayName: departamento desarrollo de software FRONT & BACKEND
+  parent: LoB-Industrializacion-corp
+  children: [equipo_desarrolladores_front, equipo_desarrolladores_backend]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: departamento_platform_engineering
+  description: Departamento de Ingeniería plataforma de LoB-Industrializacion-corp
+spec:
+  type: department
+  displayName: departamento platform Engineering
+  parent: LoB-Industrializacion-corp
+  children: [equipo_platform_engineering]
