@@ -20,7 +20,7 @@ metadata:
     quay.io/repository-slug: myorg/myapp
     backstage.io/kubernetes-id: 'redhat-developer-hub'
     backstage.io/kubernetes-namespace: rhdevhub
-    backstage.io/kubernetes-label-selector: 'app=rhdevhub'
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=redhat-developer-hub'
     app.kubernetes.io/instance: redhat-developer-hub
     
 spec:
