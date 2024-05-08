@@ -23,13 +23,9 @@ metadata:
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=redhat-developer-hub'
     app.kubernetes.io/instance: redhat-developer-hub
 spec:
-  profile:
-    parent: departamento_platform_engineering
   type: website
   owner: departamento_platform_engineering
   lifecycle: development
-  dependsOn:
-    - resource:rhdevhub-system
   system: rhdevhub-system
   children: []
 ---
