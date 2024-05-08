@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: rhdevhub-catalog-component
-  title: Componente RH DevHub 
+  title: RH DevHub 
   description: |
     Componente del Portal de Ingeniería de Plataforma de Red Hat 
   links:
