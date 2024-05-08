@@ -54,7 +54,6 @@ metadata:
   name: rhdevhub-system
   title: System Red hat Developer Hub
   annotations:
-    backstage.io/kubernetes-id: redhat-developer-hub
     backstage.io/kubernetes-namespace: rhdevhub
 spec:
   owner: departamento_platform_engineering
