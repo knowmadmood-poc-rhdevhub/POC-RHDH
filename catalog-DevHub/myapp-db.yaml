@@ -15,4 +15,4 @@ spec:
   type: database
   lifecycle: production
   owner: departamento_platform_engineering
-  system: rh-devhub
+  system: rh-devhub-system
