@@ -15,7 +15,7 @@ metadata:
     - title: Slack
       url: https://myapp.example.slack.com
   annotations:
-    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=redhat-developer-hub'
+    backstage.io/kubernetes-label-selector: 'app=rhdevhub'
 spec:
   type: website
   owner: departamento_platform_engineering
