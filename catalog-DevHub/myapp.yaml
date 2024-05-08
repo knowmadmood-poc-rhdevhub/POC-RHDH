@@ -22,14 +22,35 @@ metadata:
     backstage.io/kubernetes-namespace: rhdevhub
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=redhat-developer-hub'
     app.kubernetes.io/instance: redhat-developer-hub
-    
 spec:
   profile:
-    parent: rh-devhub
+    parent: departamento_platform_engineering
   type: website
-  system: rh-devhub
   owner: departamento_platform_engineering
   lifecycle: development
   dependsOn:
     - resource:rhdevhub-system
   children: [rh-devhub___db]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: rh-devhub___db
+  title: PostgreSQL Database for Red Hat Developer Hub
+  description: PostgreSQL is a powerful, open source object-relational database system.
+  links:
+    - url: https://www.postgresql.org
+      title: PostgreSQL website
+      icon: web
+    - url: https://postgresql.org/docs
+      title: PostgreSQL Documentation
+      icon: web
+  annotations:
+    backstage.io/kubernetes-id: 'redhat-developer-hub-postgresql'
+    backstage.io/kubernetes-namespace: rhdevhub
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=redhat-developer-hub'
+    app.kubernetes.io/instance: redhat-developer-hub
+spec:
+  type: database
+  lifecycle: development
+  owner: departamento_platform_engineering
