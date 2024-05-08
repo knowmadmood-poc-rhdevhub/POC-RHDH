@@ -16,7 +16,6 @@ metadata:
       url: https://myapp.example.slack.com
   annotations:
     argocd/app-name: 'myapp'
-    backstage.io/kubernetes-id: 'ocp-cluster-ss754.ss754.sandbox1459'
     github.com/project-slug: myorg/myapp
     quay.io/repository-slug: myorg/myapp
     backstage.io/kubernetes-namespace: rhdevhub
