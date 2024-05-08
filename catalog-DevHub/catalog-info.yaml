@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: miprimera-app-location
-  description: Catálogo componentes Mi primera app para la demo
+  name: componentes-red-hat_developer_hub
+  description: Catálogo componentes Red Hat Developer Hub
 spec:
   targets:
     - ./group.yaml
