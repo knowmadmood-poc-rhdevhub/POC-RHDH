@@ -31,4 +31,4 @@ spec:
   owner: departamento_platform_engineering
   lifecycle: development
   dependsOn:
-    - resource:rh-devhub___db
+    - resource:rh-devhub
