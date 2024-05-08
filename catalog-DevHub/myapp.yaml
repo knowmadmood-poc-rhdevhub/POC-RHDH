@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: myapp
-  title: Componente de ejemplo para RHDH de la LoB Industrialización
+  name: rh-devhub
+  title: Componente RH DevHub 
   description: |
-    This is the example component for RHDH
+    Componente del Portal de Ingeniería de Plataforma de Red Hat 
   links:
-    - title: MyApp Website
-      url: https://myapp.example.com
+    - title: Acceso Portal
+      url: https://redhat-developer-hub-rhdevhub.apps.cluster-ss754.ss754.sandbox1459.opentlc.com
     - title: MyApp Issues
       url: https://jira.myapp.com
     - title: Blog
@@ -16,16 +16,20 @@ metadata:
       url: https://myapp.example.slack.com
   annotations:
     argocd/app-name: 'myapp'
-    backstage.io/kubernetes-id: 'myapp'
+    backstage.io/kubernetes-id: 'ocp-cluster-ss754.ss754.sandbox1459'
     github.com/project-slug: myorg/myapp
     quay.io/repository-slug: myorg/myapp
-    backstage.io/kubernetes-namespace: myapp
+    backstage.io/kubernetes-namespace: rhdevhub
+    app.kubernetes.io/instance: redhat-developer-hub
+    backstage.io/kubernetes-id: 'redhat-developer-hub*'
+    backstage.io/kubernetes-label-selector: 'app=nginx'
+    
 spec:
   profile:
     parent: lob-industrializacion-corp
   type: website
-  system: myapp
-  owner: myapp-dev-team
+  system: rh-devhub
+  owner: departamento_platform_engineering
   lifecycle: development
   dependsOn:
-    - resource:myappdb
+    - resource:rh-devhub___db
