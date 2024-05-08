@@ -28,7 +28,7 @@ spec:
     parent: rh-devhub
   type: website
   system: rh-devhub
-  owner: departamento_platform_engineering
+  owner: rhdevhub-system
   lifecycle: development
   dependsOn:
     - resource:rhdevhub-system
