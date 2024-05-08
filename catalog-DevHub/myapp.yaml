@@ -30,6 +30,7 @@ spec:
   lifecycle: development
   dependsOn:
     - resource:rhdevhub-system
+  system: rhdevhub-system
   children: [rh-devhub___db]
 ---
 apiVersion: backstage.io/v1alpha1
