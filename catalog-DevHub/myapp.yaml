@@ -40,9 +40,9 @@ metadata:
       title: PostgreSQL Documentation
       icon: web
   annotations:
-    backstage.io/kubernetes-id: 'redhat-developer-hub-postgresql'
+    backstage.io/kubernetes-id: redhat-developer-hub-postgresql
     backstage.io/kubernetes-namespace: rhdevhub
-    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=redhat-developer-hub'
+    backstage.io/kubernetes-label-selector: 'backstage.io/kubernetes-id:redhat-developer-hub-postgresql'
     app.kubernetes.io/instance: redhat-developer-hub
 spec:
   type: database
