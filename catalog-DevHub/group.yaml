@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: myapp-dev-team
-  title: Mi primera APP - ORG LoB Industrialization - Corp
+  name: rhdevhub-dev-team
+  title: Mantenedores aplicación Red Hat Developer Hub
 spec:
   type: team
   profile:
-    displayName: Equipo para el desarrollo Mi Primera APP para esta demo
-    email: equipo_miprimera_app@nomEscribas.com
+    displayName: Equipo de Ingeniería de plataforma
+    email: grupo_ingenieriaplataforma@nomescribas.com
     picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHIT6vXbylHPZBlEs7cnj423_gCt29WHFCy3JmprhXA&s
-    parent: departamento_desarrollo_software
+    parent: departamento_platform_engineering
   children: []
 
