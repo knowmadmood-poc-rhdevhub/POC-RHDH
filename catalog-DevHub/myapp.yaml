@@ -32,3 +32,4 @@ spec:
   lifecycle: development
   dependsOn:
     - resource:rhdevhub-system
+  children: [rh-devhub___db]
