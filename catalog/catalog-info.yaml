@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: miprimera-app-location
+  description: Catálogo componentes Mi primera app para la demo
+spec:
+  targets:
+    - ./group.yaml
+    # - ./membrillos.yaml
+    - ./system.yaml
+    - ./myapp-db.yaml
+    - ./myapp.yaml
