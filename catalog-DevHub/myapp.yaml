@@ -54,6 +54,7 @@ metadata:
   name: rhdevhub-system
   title: System Red hat Developer Hub
   annotations:
+    backstage.io/kubernetes-label-selector: 'app=postgres_rhdevhub, app=rhdevhub'
     backstage.io/kubernetes-namespace: rhdevhub
 spec:
   owner: departamento_platform_engineering
