@@ -23,7 +23,7 @@ spec:
   owner: departamento_platform_engineering
   lifecycle: development
   system: rhdevhub-system
-  children: []
+  children: [rh-devhub___db]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
