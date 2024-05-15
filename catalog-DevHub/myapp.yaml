@@ -15,7 +15,7 @@ metadata:
     - title: Slack
       url: https://myapp.example.slack.com
   annotations:
-    backstage.io/kubernetes-id: 'redhat-developer-hub'
+    backstage.io/kubernetes-id: redhat-developer-hub
     backstage.io/kubernetes-namespace: rhdevhub
     backstage.io/kubernetes-label-selector: 'app=rhdevhub'
 spec: 
@@ -39,7 +39,7 @@ metadata:
       title: PostgreSQL Documentation
       icon: web
   annotations:
-    backstage.io/kubernetes-id: 'redhat-developer-hub-postgresql'
+    backstage.io/kubernetes-id: redhat-developer-hub-postgresql
     backstage.io/kubernetes-namespace: rhdevhub
     backstage.io/kubernetes-label-selector: 'app=postgres_rhdevhub'
 spec:
@@ -54,7 +54,7 @@ metadata:
   name: rhdevhub-system
   title: System Red hat Developer Hub
   annotations:
-    backstage.io/kubernetes-id: 'redhat-developer-hub'
+    backstage.io/kubernetes-id: redhat-developer-hub
     backstage.io/kubernetes-namespace: rhdevhub
     backstage.io/kubernetes-label-selector: 'app=postgres_rhdevhub, app=rhdevhub'
 spec:
