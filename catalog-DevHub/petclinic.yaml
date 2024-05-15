@@ -54,6 +54,7 @@ metadata:
   name: petstore
   title: Petstore System
   annotations:
+    backstage.io/kubernetes-id: app-spring-petclinic
     backstage.io/kubernetes-namespace: petclinic
     backstage.io/kubernetes-label-selector: 'app=mysql, app=app-spring-petclinic' 
 spec:
