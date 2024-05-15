@@ -21,6 +21,8 @@ metadata:
 spec: 
   type: website
   owner: departamento_desarrollo_software
+  providesApis:
+    - petstore
   lifecycle: development
   system: petstore
   children: []
