@@ -1,19 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: rhdevhub-catalog-component
+  name: rhdevhub
   title: RH DevHub 
   description: |
     Componente del Portal de Ingeniería de Plataforma de Red Hat 
   links:
     - title: Acceso Portal
       url: https://redhat-developer-hub-rhdevhub.apps.cluster-ss754.ss754.sandbox1459.opentlc.com
-    - title: MyApp Issues
-      url: https://jira.myapp.com
-    - title: Blog
-      url: https://myapp.example.com/blog
-    - title: Slack
-      url: https://myapp.example.slack.com
   annotations:
     backstage.io/kubernetes-id: 'redhat-developer-hub'
     backstage.io/kubernetes-namespace: rhdevhub
@@ -22,7 +16,7 @@ spec:
   type: website
   owner: departamento_platform_engineering
   lifecycle: development
-  system: rhdevhub-system
+  system: rhdevhub
   children: [rh-devhub___db]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -46,12 +40,12 @@ spec:
   type: database
   lifecycle: development
   owner: departamento_platform_engineering
-  system: rhdevhub-system
+  system: rhdevhub
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: rhdevhub-system
+  name: rhdevhub
   title: System Red hat Developer Hub
   annotations:
     backstage.io/kubernetes-id: redhat-developer-hub
