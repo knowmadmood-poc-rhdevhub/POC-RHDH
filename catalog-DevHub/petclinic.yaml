@@ -10,8 +10,8 @@ metadata:
       url: https://app-spring-petclinic-petclinic.apps.cluster-rk7ld.rk7ld.sandbox2009.opentlc.com/
     - title: API petstore
       url: https://app-spring-petclinic-petclinic.apps.cluster-rk7ld.rk7ld.sandbox2009.opentlc.com/swagger-ui/
-   - title: Issues petstore
-      url: https://github.com/knowmadmood-poc-rhdevhub/app.spring-petclinic/pulse
+#   - title: Issues petstore
+#      url: https://github.com/knowmadmood-poc-rhdevhub/app.spring-petclinic/pulse
     - title: Wiki petstore
       url: https://github.com/knowmadmood-poc-rhdevhub/app.spring-petclinic/wiki
   annotations:
