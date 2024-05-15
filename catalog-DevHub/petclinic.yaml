@@ -8,12 +8,12 @@ metadata:
   links:
     - title: Acceso petstore
       url: https://app-spring-petclinic-petclinic.apps.cluster-rk7ld.rk7ld.sandbox2009.opentlc.com/
-    - title: petstore Issues
-      url: https://jira.myapp.com
-    - title: petstore Blog
-      url: https://myapp.example.com/blog
-    - title: Slack
-      url: https://myapp.example.slack.com
+    - title: API 
+      url: https://app-spring-petclinic-petclinic.apps.cluster-rk7ld.rk7ld.sandbox2009.opentlc.com/swagger-ui/
+   - title: Issues 
+      url: https://github.com/knowmadmood-poc-rhdevhub/app.spring-petclinic/pulse
+    - title: wiki
+      url: https://github.com/knowmadmood-poc-rhdevhub/app.spring-petclinic/wiki
   annotations:
     backstage.io/kubernetes-id: app-spring-petclinic
     backstage.io/kubernetes-namespace: petclinic
@@ -25,12 +25,12 @@ spec:
     - petstore
   lifecycle: development
   system: petstore
-  children: []
+  children: [petstore_db]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: petstore
+  name: petstore_db
   title: PostgreSQL Database petstore
   description: PostgreSQL is a powerful, open source object-relational database system.
   links:
