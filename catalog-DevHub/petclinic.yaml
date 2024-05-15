@@ -45,7 +45,6 @@ metadata:
 spec:
   type: database
   lifecycle: development
-  owner: departamento_desarrollo_software
   system: petstore
 ---
 apiVersion: backstage.io/v1alpha1
