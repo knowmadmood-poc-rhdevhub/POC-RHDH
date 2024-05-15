@@ -79,4 +79,4 @@ spec:
   owner: departamento_desarrollo_software
   lifecycle: development
   definition:
-    $openapi: https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/petstore.yaml
+    $openapi: https://github.com/knowmadmood-poc-rhdevhub/POC-RHDH/blob/main/catalog-DevHub/petstore_swagger.yaml
