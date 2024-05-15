@@ -46,6 +46,7 @@ spec:
   type: database
   lifecycle: development
   system: petstore
+  owner: departamento_desarrollo_software
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
