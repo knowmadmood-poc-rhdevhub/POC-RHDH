@@ -5,7 +5,7 @@ metadata:
 spec:
   profile:
     displayName: Desarrollador ichaso-rhdh-developer
-    email: ichaso-rhdh-developer@nomescribas.com
+    email: ichaso.knowmadmood@gmail.com
     picture: https://cdn.iconscout.com/icon/premium/png-256-thumb/web-developer-4830946-4041863.png
   memberOf: [equipo_desarrolladores_front, equipo_desarrolladores_backend, myapp-dev-team]
 ---
@@ -16,6 +16,6 @@ metadata:
 spec:
   profile:
     displayName: Ingeniero Plataforma ichaso-knowmadmood
-    email: ichaso-knowmadmood@nomescribas.com
+    email: ichaso@knowmadmood.com
     picture: https://cdn.iconscout.com/icon/premium/png-256-thumb/web-developer-16-957564.png
   memberOf: [equipo_platform_engineering]
